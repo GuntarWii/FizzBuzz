@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+    background: #00d2ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+div{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin: 25px;
+    width: 50px;
+    padding: 50px;
+
+    border: 1px solid rgba(45, 46, 51, 0.678);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
